@@ -8,9 +8,6 @@ The PHP image then uses the [official Debian Jessie Docker image](https://hub.do
 
 Debian then uses the [scratch image](https://hub.docker.com/_/scratch/) as its base image.
 
-At this point, an image has been built which contains Apache, PHP and all of the OS dependencies and libraries required to serve a webpage written in PHP.
-
-Finally, docker copies everything in src/ inside this repository to the /var/www/html folder inside the image. This is the Apache web root directory.
 
 # Setup
 
